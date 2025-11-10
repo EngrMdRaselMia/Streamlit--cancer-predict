@@ -1,0 +1,30 @@
+/* Target the last column's vertical block */
+.stColumn:last-child .stVerticalBlock {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #3175a1;
+}
+
+.diagnosis {
+    color: #ffff;
+    padding: 0.2em 0.5em;
+    border-radius: 0.5em;
+}
+
+.diagnosis.Benign {
+    background-color: #03fa03; /* Green background for Benign */
+}
+
+.diagnosis.Malicious {
+    background-color: #ff0000; /* Red background for Malicious */
+}   
+
+/* Reduce top padding of main content */
+.css-18e3th9 {  
+    padding-top: 0.5rem;  /* default is much bigger, adjust as needed */
+}
+
+/* Optional: reduce spacing of container around title */
+.stApp > div:first-child {
+    padding-top: 0rem;
+}
